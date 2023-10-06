@@ -8519,10 +8519,13 @@ code{
   --background-blur: 0px; /* app background blur [default: 0px] */
 
   /* HOME BUTTON ICON */
-  /* Discord new: https://lh3.googleusercontent.com/pw/ADCreHdykR0L2yU8pgsquUjeTXrhAb5q58cRI5lkVA5w8x8VqdWNIjYj6FgiYrZz5s06m3AMyxHYBnsAnZ763PyKv4Ro4nPcr3kvJ4O9AjXu4Jwd0402SGY=w2400 Discord old: https://clearvision.gitlab.io/icons/discord.svg */
-  --home-icon: url(https://lh3.googleusercontent.com/pw/ADCreHd7krpoCmVr9JZ7RJUDX7rMIbYThh3bIviJulaVpsCH96pjMYE57yadsRImCoq9UWeiNJmSPLZ2cwxRdfS1YtQzUQrgKp6QhbKteYXEqQSps-V25DI=w2400); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
+  /* Discord new: https://lh3.googleusercontent.com/pw/ADCreHdykR0L2yU8pgsquUjeTXrhAb5q58cRI5lkVA5w8x8VqdWNIjYj6FgiYrZz5s06m3AMyxHYBnsAnZ763PyKv4Ro4nPcr3kvJ4O9AjXu4Jwd0402SGY=w2400 Discord old: https://clearvision.gitlab.io/icons/discord.svg 
+  Ganyu: https://lh3.googleusercontent.com/pw/ADCreHd7krpoCmVr9JZ7RJUDX7rMIbYThh3bIviJulaVpsCH96pjMYE57yadsRImCoq9UWeiNJmSPLZ2cwxRdfS1YtQzUQrgKp6QhbKteYXEqQSps-V25DI=w2400*/
+  --home-icon: url(https://lh3.googleusercontent.com/pw/ADCreHdykR0L2yU8pgsquUjeTXrhAb5q58cRI5lkVA5w8x8VqdWNIjYj6FgiYrZz5s06m3AMyxHYBnsAnZ763PyKv4Ro4nPcr3kvJ4O9AjXu4Jwd0402SGY=w2400); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
   --home-position: center; /* home button icon position [default: center] */
-  --home-size: 100px; /* home button icon size [default: 40px] */
+  /* Discord new: 25px Discord old: home button icon size [default: 40px] 
+  Ganyu: 100px*/
+  --home-size: 25px; /* home button icon size [default: 40px] */
 
   /* CHANNEL COLORS */
   --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
