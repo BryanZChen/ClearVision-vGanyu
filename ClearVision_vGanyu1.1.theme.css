@@ -2275,6 +2275,17 @@ textarea::-webkit-scrollbar{
     height:100%;
     background:var(--home-icon) var(--home-position)/var(--home-size) no-repeat
 }
+
+/* From DarkMatter */
+div[data-list-item-id="guildsnav___home"] {
+    background:var(--home-icon) var(--home-position)/var(--home-size) no-repeat
+	/* background: var(--home-image) top center/140% no-repeat; */
+}
+#app-mount [data-list-item-id="guildsnav___home"]>div {
+	color: transparent;
+	background-color: transparent;
+}
+
 .homeIcon-r0w4ny>path{
     display:none
 }
@@ -8202,7 +8213,7 @@ header-2TLOnc .icon-3CDcPB:hover,header-2TLOnc .backButton-bSKWLe:hover{
   Ganyu: https://lh3.googleusercontent.com/pw/ADCreHd7krpoCmVr9JZ7RJUDX7rMIbYThh3bIviJulaVpsCH96pjMYE57yadsRImCoq9UWeiNJmSPLZ2cwxRdfS1YtQzUQrgKp6QhbKteYXEqQSps-V25DI=w2400
   Icon: https://lh3.googleusercontent.com/pw/ADCreHfrl97htzvnDw8kpCTcEIQvO994TKFzl3r9Deyla3dQrSGA90p-ItU5QIXTmXYvl0zgTokaJ8xG9oWwLKNjcPRBRHHgw0gf8tCOSPwCO8SOv83Z4as=w2400
   */
-  --home-icon: url(https://lh3.googleusercontent.com/pw/ADCreHfrl97htzvnDw8kpCTcEIQvO994TKFzl3r9Deyla3dQrSGA90p-ItU5QIXTmXYvl0zgTokaJ8xG9oWwLKNjcPRBRHHgw0gf8tCOSPwCO8SOv83Z4as=w2400); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
+  --home-icon: url('https://lh3.googleusercontent.com/pw/ADCreHfrl97htzvnDw8kpCTcEIQvO994TKFzl3r9Deyla3dQrSGA90p-ItU5QIXTmXYvl0zgTokaJ8xG9oWwLKNjcPRBRHHgw0gf8tCOSPwCO8SOv83Z4as=w2400'); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
   --home-position: center; /* home button icon position [default: center] */
   /* Discord new: 25px Discord old: home button icon size [default: 40px] 
   Ganyu: 100px*/
